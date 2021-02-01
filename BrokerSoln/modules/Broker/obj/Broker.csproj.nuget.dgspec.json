@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj": {}
+    "F:\\Desktop\\MQTT Sample\\brokersoln\\modules\\broker\\Broker.csproj": {}
   },
   "projects": {
-    "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj": {
+    "F:\\Desktop\\MQTT Sample\\brokersoln\\modules\\broker\\Broker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj",
+        "projectUniqueName": "F:\\Desktop\\MQTT Sample\\brokersoln\\modules\\broker\\Broker.csproj",
         "projectName": "Broker",
-        "projectPath": "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj",
+        "projectPath": "F:\\Desktop\\MQTT Sample\\brokersoln\\modules\\broker\\Broker.csproj",
         "packagesPath": "C:\\Users\\Eeron John\\.nuget\\packages\\",
-        "outputPath": "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\obj\\",
+        "outputPath": "F:\\Desktop\\MQTT Sample\\brokersoln\\modules\\broker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eeron John\\AppData\\Roaming\\NuGet\\NuGet.Config"

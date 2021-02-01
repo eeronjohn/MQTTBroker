@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NTBefl97F8xXQYAy/k8t1y1nzXsewtyGZS34IVy5+DvroVnYkA8MpI+1N2azWNTISCXqJbrYNytyDCXpriA60w==",
+  "dgSpecHash": "KAte0LYDh6gkTRLIb9ZRwP4Gu8qG1mcmDDNgp04wgRFGFDfRei2T3zq31hPhs8G86tAQjS6GDrw1GAPyXRbo+g==",
   "success": true,
-  "projectFilePath": "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj",
+  "projectFilePath": "F:\\Desktop\\MQTT Sample\\brokersoln\\modules\\broker\\Broker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eeron John\\.nuget\\packages\\dotnetty.buffers\\0.6.0\\dotnetty.buffers.0.6.0.nupkg.sha512",
     "C:\\Users\\Eeron John\\.nuget\\packages\\dotnetty.codecs\\0.6.0\\dotnetty.codecs.0.6.0.nupkg.sha512",
