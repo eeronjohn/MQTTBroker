@@ -2,7 +2,7 @@
     "$schema-version": "0.0.1",
     "description": "",
     "image": {
-        "repository": "docker.io/eeronjohn/initialrepos",
+        "repository": "avaicaoutofstocksit.azurecr.io/test-publisher",
         "tag": {
             "version": "0.0.1",
             "platforms": {

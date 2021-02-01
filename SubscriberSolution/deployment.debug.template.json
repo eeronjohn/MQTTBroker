@@ -13,7 +13,7 @@
               "docker": {
                 "username": "$CONTAINER_REGISTRY_USERNAME_docker",
                 "password": "$CONTAINER_REGISTRY_PASSWORD_docker",
-                "address": "docker.io"
+                "address": "avaicaoutofstocksit.azurecr.io"
               }
             }
           }
@@ -57,13 +57,13 @@
           }
         },
         "modules": {
-          "Publisher": {
+          "Subscriber": {
             "version": "1.0",
             "type": "docker",
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.Publisher}",
+              "image": "${MODULES.Subscriber.debug}",
               "createOptions": {}
             }
           },
@@ -84,8 +84,8 @@
       "properties.desired": {
         "schemaVersion": "1.0",
         "routes": {
-          "PublisherToIoTHub": "FROM /messages/modules/Publisher/outputs/* INTO $upstream",
-          "sensorToPublisher": "FROM /messages/modules/SimulatedTemperatureSensor/outputs/temperatureOutput INTO BrokeredEndpoint(\"/modules/Publisher/inputs/input1\")"
+          "SubscriberToIoTHub": "FROM /messages/modules/Subscriber/outputs/* INTO $upstream",
+          "sensorToSubscriber": "FROM /messages/modules/SimulatedTemperatureSensor/outputs/temperatureOutput INTO BrokeredEndpoint(\"/modules/Subscriber/inputs/input1\")"
         },
         "storeAndForwardConfiguration": {
           "timeToLiveSecs": 7200

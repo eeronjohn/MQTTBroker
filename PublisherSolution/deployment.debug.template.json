@@ -57,34 +57,14 @@
           }
         },
         "modules": {
-          "Broker": {
-            "version": "1.0",
-            "type": "docker",
-            "status": "running",
-            "restartPolicy": "always",
-            "settings": {
-              "image": "${MODULES.Broker}",
-              "createOptions": {}
-            }
-          },
-          "Subscriber": {
-            "version": "1.0",
-            "type": "docker",
-            "status": "running",
-            "restartPolicy": "always",
-            "settings": {
-              "image": "avaicaoutofstocksit.azurecr.io/test-subscriber:0.0.1-amd64",
-              "createOptions": "{}"
-            }
-          },
           "Publisher": {
             "version": "1.0",
             "type": "docker",
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "avaicaoutofstocksit.azurecr.io/test-publisher:0.0.1-amd64",
-              "createOptions": "{}"
+              "image": "${MODULES.Publisher.debug}",
+              "createOptions": {}
             }
           }
         }
@@ -94,7 +74,7 @@
       "properties.desired": {
         "schemaVersion": "1.0",
         "routes": {
-          "BrokerToIoTHub": "FROM /messages/modules/Broker/outputs/* INTO $upstream"
+          "PublisherToIoTHub": "FROM /messages/modules/Publisher/outputs/* INTO $upstream"
         },
         "storeAndForwardConfiguration": {
           "timeToLiveSecs": 7200
