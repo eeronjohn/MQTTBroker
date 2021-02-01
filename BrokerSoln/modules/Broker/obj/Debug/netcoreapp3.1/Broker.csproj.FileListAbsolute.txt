@@ -1,0 +1,15 @@
+F:\Desktop\MQTT Sample\broker\bin\Debug\netcoreapp3.1\Broker.exe
+F:\Desktop\MQTT Sample\broker\bin\Debug\netcoreapp3.1\Broker.deps.json
+F:\Desktop\MQTT Sample\broker\bin\Debug\netcoreapp3.1\Broker.runtimeconfig.json
+F:\Desktop\MQTT Sample\broker\bin\Debug\netcoreapp3.1\Broker.runtimeconfig.dev.json
+F:\Desktop\MQTT Sample\broker\bin\Debug\netcoreapp3.1\Broker.dll
+F:\Desktop\MQTT Sample\broker\bin\Debug\netcoreapp3.1\Broker.pdb
+F:\Desktop\MQTT Sample\broker\bin\Debug\netcoreapp3.1\MQTTnet.dll
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.csprojAssemblyReference.cache
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.AssemblyInfoInputs.cache
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.AssemblyInfo.cs
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.csproj.CoreCompileInputs.cache
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.csproj.CopyComplete
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.dll
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.pdb
+F:\Desktop\MQTT Sample\broker\obj\Debug\netcoreapp3.1\Broker.genruntimeconfig.cache

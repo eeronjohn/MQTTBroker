@@ -1,0 +1,15 @@
+F:\Desktop\MQTT Sample\subscriber\bin\Debug\netcoreapp3.1\Subscriber.exe
+F:\Desktop\MQTT Sample\subscriber\bin\Debug\netcoreapp3.1\Subscriber.deps.json
+F:\Desktop\MQTT Sample\subscriber\bin\Debug\netcoreapp3.1\Subscriber.runtimeconfig.json
+F:\Desktop\MQTT Sample\subscriber\bin\Debug\netcoreapp3.1\Subscriber.runtimeconfig.dev.json
+F:\Desktop\MQTT Sample\subscriber\bin\Debug\netcoreapp3.1\Subscriber.dll
+F:\Desktop\MQTT Sample\subscriber\bin\Debug\netcoreapp3.1\Subscriber.pdb
+F:\Desktop\MQTT Sample\subscriber\bin\Debug\netcoreapp3.1\MQTTnet.dll
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.csprojAssemblyReference.cache
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.AssemblyInfoInputs.cache
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.AssemblyInfo.cs
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.csproj.CoreCompileInputs.cache
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.csproj.CopyComplete
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.dll
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.pdb
+F:\Desktop\MQTT Sample\subscriber\obj\Debug\netcoreapp3.1\Subscriber.genruntimeconfig.cache

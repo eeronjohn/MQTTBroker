@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj": {}
+  },
+  "projects": {
+    "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj",
+        "projectName": "Broker",
+        "projectPath": "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\Broker.csproj",
+        "packagesPath": "C:\\Users\\Eeron John\\.nuget\\packages\\",
+        "outputPath": "f:\\Desktop\\MQTT Sample\\BrokerSoln\\modules\\Broker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eeron John\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[3.0.14-rc8, )"
+            },
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Runtime.Loader": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
